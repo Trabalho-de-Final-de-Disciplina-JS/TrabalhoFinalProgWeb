@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+* {
+    font-family: "Share Tech Mono", monospace;
+    color: #9f21f3;
+}
+
+body {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #150321;
+
+}
+
+header {
+
+    margin-bottom: 40px;
+
+}
+
+.nav_bar {
+
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo {
+
+    font-size: 45px;
+}
+
+.nav_bar i {
+
+    font-size: 45px;
+
+}
+
+#nav_list {
+
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+
+}
+
+#nav_list a {
+
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+
+main {
+
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+
+}
+
+
+.form {
+
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+
+}
+
+.form select {
+
+    width: 115px;
+
+}
+
+
+.form input {
+
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.form .botoes {
+
+    margin: 5px auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.form button {
+
+    width: 120px;
+    height: 35px;
+    margin: 5px auto;
+    cursor: pointer;
+
+}
