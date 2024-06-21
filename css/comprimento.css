@@ -16,26 +16,30 @@ body {
 
 header {
 
-    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin-top: 30px;
 
 }
 
-.nav_bar {
+#nav_bar {
 
-    width: 100vw;
-    height: 80px;
+    top: 0;
+    gap: 0;
+    z-index: 3;
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-around;
 
 }
 
 .titulo {
 
     font-size: 45px;
+
 }
 
-.nav_bar i {
+#nav_bar i {
 
     font-size: 45px;
 
@@ -43,9 +47,6 @@ header {
 
 #nav_list {
 
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-    height: 60px;
-    width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -56,20 +57,30 @@ header {
 #nav_list a {
 
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
 
+}
+
+#nav_list a:hover{
+
+    color: #592584;
+    transition: 0.2s;
+    
 }
 
 
 main {
 
-    width: 100vw;
-    height: 300px;
+    width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 35px;
+    gap: 20px;
+    margin: 100px 350px;
 
 }
+
 
 
 .form {
@@ -78,12 +89,15 @@ main {
     justify-content: center;
     align-items: center;
     width: 500px;
+    height: 500px;
+    display: inline-block;
+
 
 }
 
 .form select {
 
-    width: 115px;
+    width: 185px;
 
 }
 
@@ -92,24 +106,32 @@ main {
 
     margin: 5px;
     padding: 5px;
-
-}
-
-.form .botoes {
-
-    margin: 5px auto;
-    gap: 10px;
-    display: flex;
-    flex-direction: row;
+    width: 250px;
 
 
 }
 
 .form button {
 
-    width: 120px;
+    width: 100px;    
     height: 35px;
     margin: 5px auto;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    border-style: none;
+    text-transform: uppercase;
+    overflow: hidden;
     cursor: pointer;
+    transition: 0.5s; 
+    background-color: #150321;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;}
 
+.form button:hover{
+
+    box-shadow: rgba(140, 46, 170, 0.4) 5px 5px, rgba(140, 46, 170, 0.3) 10px 10px, rgba(140, 46, 170, 0.2) 15px 15px, rgba(140, 46, 170, 0.1) 20px 20px, rgba(140, 46, 170, 0.05) 25px 25px;
+    background: #9f21f3;
+    color: #592584;
 }

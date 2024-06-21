@@ -23,6 +23,8 @@ header {
   align-items: center;
   justify-content: space-around;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  margin-top: 30px;
+
 }
 
 i {
@@ -73,13 +75,44 @@ main {
 
 }
 
-button:hover{
+#gerador:hover{
 
-  color: #255784;
-  background: #2196f3;
-  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  color: #257984;
+  background: #21f3f3;
+  box-shadow: 0 0 10px #21f3f3, 0 0 40px #21f3f3, 0 0 80px #21f3f3;
 
 }
 
+#conversorPeso:hover{
+
+  color: #842525;
+  background: #f32121;
+  box-shadow: 0 0 10px #f32121, 0 0 40px #f32121, 0 0 80px #f32121;
+
+}
+
+#conversorComprimento:hover{
+
+  color: #592584;
+  background: #9f21f3;
+  box-shadow: 0 0 10px #9f21f3, 0 0 40px #9f21f3, 0 0 80px #9f21f3;
+
+}
+
+#conversorVolume:hover{
+
+  color: #844b25;
+  background: #f38021;
+  box-shadow: 0 0 10px #f38021, 0 0 40px #f38021, 0 0 80px #f38021;
+
+}
+
+#conversorTemperatura:hover{
+
+  color: #842584;
+  background: #e221f3;
+  box-shadow: 0 0 10px #e221f3, 0 0 40px #e221f3, 0 0 80px #e221f3;
+
+}
 
 

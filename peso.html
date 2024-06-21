@@ -15,42 +15,51 @@
 
 
     <header>
-        <nav id="navbar">
-            <i class="fa-solid fa-dumbbell"> Conversor de Pesos </i>
+        <div id="nav_bar">
+            <i class="fa-solid fa-dumbbell"></i>
+            <h3 class="titulo"> Conversor de Pesos </h3>
             <ul id="nav_list">
                 <li class="nav-item">
                     <a href="index.html"> Menu </a>
                 </li>
             </ul>
-        </nav>
+        </div>
     </header>
+
     <main>
-        <div id="form">
-            <label for="de">de:</label>
-            <select name="de" id="de">
-                <option value="1">quilograma</option>
-                <option value="2">gramas</option>
-                <option value="3">libras</option>
-            </select>
-            <p>valor:</p>
-            <input type="number" step="0.01" id="val">
-            <button id="convert">converter</button>
 
-            <label for="para">para</label>
-            <select name="para" id="para">
-                <option value="1">quilograma</option>
-                <option value="2">gramas</option>
-                <option value="3">libras</option>
-            </select>
+        <div class="form">
+            <div class="input">
+                <label for="de"> <strong> De: </strong> </label>
+                <select name="de" id="de">
+                    <option value="1">Quilograma</option>
+                    <option value="2">Gramas</option>
+                    <option value="3">Libras</option>
+                </select>
+                <input type="number" step="0.01" id="val" placeholder="Valor">
+            </div>
         </div>
 
-
-        <div id="res">
-            <p id="result"></p>
+        <div class="form">
+            <button id="convert">Converter</button>
         </div>
+
+        <div class="form">
+            <div class="input">
+                <label for="para"> <strong> Para: </strong> </label>
+                <select name="para" id="para">
+                    <option value="1">Quilograma</option>
+                    <option value="2">Gramas</option>
+                    <option value="3">Libras</option>
+                </select>
+                <input type="number" id="result" placeholder="Resultado" readonly>
+            </div>
+        </div>
+
     </main>
 
     <script src="js/peso.js"></script>
+
 </body>
 
 </html>

@@ -24,7 +24,7 @@ function selec() {
         res= val
     }
     
-    document.getElementById('result').textContent= res
+    document.getElementById('result').value = res
 
 }
 

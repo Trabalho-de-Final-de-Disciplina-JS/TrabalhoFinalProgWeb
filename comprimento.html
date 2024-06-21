@@ -15,12 +15,9 @@
 
     <header>
 
-        <div class="nav_bar">
+        <div id="nav_bar">
             <i class="fa-solid fa-ruler"> </i>
             <h3 class="titulo"> Conversor de Comprimento </h3>
-        </div>
-
-        <div class="nav_bar">
             <ul id="nav_list">
                 <li class="nav-item">
                     <a href="index.html"> Menu </a>
@@ -31,6 +28,8 @@
     </header>
 
     <main>
+
+
         <div class="form">
 
             <div class="input">
@@ -45,31 +44,35 @@
 
             <div class="input">
                 <input type="number" id="c1" step="0.1" placeholder="Valor">
+            </div>
+
+            </div>
+
+            <div class="form">
+
                 <button id="converter" onclick="pegarValor()"> Converter </button>
+
             </div>
 
-            <br>
+            <div class="form">
 
-            <div class="input">
-                <label> <strong> Para: </strong></label>
-                <select id="cs2">
-                    <option value="metros"> Metros </option>
-                    <option value="centimetros"> Centímetros </option>
-                    <option value="milimetros"> Milímetros </option>
-                    <option value="polegadas"> Polegadas </option>
-                </select>
+                <div class="input">
+                    <label> <strong> Para: </strong></label>
+                    <select id="cs2">
+                        <option value="metros"> Metros </option>
+                        <option value="centimetros"> Centímetros </option>
+                        <option value="milimetros"> Milímetros </option>
+                        <option value="polegadas"> Polegadas </option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <input type="number" id="c2" step="0.1" placeholder="Resultado" readonly>
+                </div>
+
             </div>
 
-            <br>
-
-            <div class="input">
-                <label> <strong> Resultado: </strong> </label>
-            </div>
-            <div class="input">
-                <input type="number" id="c2" step="0.1" placeholder="Resultado" readonly>
-            </div>
     </main>
-    </div>
 
 
     <script src="./js/comprimento.js"> </script>
